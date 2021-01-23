@@ -1,0 +1,5 @@
+def fall_distance(x):
+  """formula for distance object falls due to gravity for specific time period"""
+  return ((x ** 2)*(9.8))/2
+dist = fall_distance(4.5)
+print(dist)
